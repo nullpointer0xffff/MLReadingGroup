@@ -112,7 +112,7 @@
 					- Do not consider order / rank of results - within K, ranking top or lower won't make any difference
 		- Mean average precision (mAP)
 			- Used for binary relevances: each item is either relevant or irrelevant
-            - ![image](images/CH2_Metrics_mAP.png)
+            - ![ScreenShot](images/CH2_Metrics_mAP.png)
 			- Definition
 				- ? $AP = \frac{\sum_{i=1}{k}Precision@i\text{ if ith item is relevant}}{\text{total relevant items}}$
 				- ? $AP = \frac{\sum_{i=1}{k}Precision@i\text{ if ith item is relevant}}{\text{total relevant items in the list}}$
@@ -146,7 +146,7 @@
 			- Exposure here is total number of suggested images
 - Serving
 	- pipeline
-		- ![image](./images/CH2_Serving.png)
+		- ![ScreenShot](./images/CH2_Serving.png)
 		- Offline: 
 			- Object storage (Images) -> indexing service (vector DB)
 		- Online:
